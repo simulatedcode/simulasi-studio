@@ -30,9 +30,9 @@ requestAnimationFrame(raf);
   <FirstLayer />
   <div class="snap-y h-screen w-screen overflow-scroll">
     <div class="snap-start h-screen w-screen backdrop-blur-[2px]">
-      <div class="flex p-8 gap-20">
+      <div class="flex p-8 gap-32">
         <RegisterTL />
-        <div><h1>Layer2.pdf</h1></div>
+        <div><h1>screen printing studio & services</h1></div>
         <RegisterTR />
       </div>
 
@@ -51,20 +51,11 @@ requestAnimationFrame(raf);
   </div>
 
   <div
-    class="snap-end h-screen w-screen flex justify-center bg-zinc-50 backdrop-blur-md backdrop-brightness-200"
+    class="snap-end h-screen w-screen bg-purple-100 backdrop-blur-md backdrop-brightness-200"
   >
-    <div class="max-w-5xl mx-auto flex justify-center items-center">
-      <div class="shadow-xl">
-        <img src="./Assets/sesat_part_2.png" />
-      </div>
-    </div>
-  </div>
-
-  <div
-    class="snap-end w-screen bg-white backdrop-blur-md backdrop-brightness-200"
-  >
-    <div class="p-2 flex justify-center items-center">
-      <span class="text-sm text-gray-600">Terima Kasih</span>
+    <NavBar />
+    <div>
+      <router-view></router-view>
     </div>
   </div>
 </template>

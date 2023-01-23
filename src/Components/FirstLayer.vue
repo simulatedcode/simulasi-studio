@@ -4,7 +4,7 @@
   <div class="h-screen w-screen">
     <div class="p-8">
       <RegisterBar class="fixed" />
-      <h1 class="fixed ml-10">layer1.pdf</h1>
+      <h1 class="fixed ml-10">simulasi studio</h1>
       <RegisterBar class="fixed right-6" />
       <RegisterBar class="fixed bottom-5" />
       <RegisterBar class="fixed bottom-5 right-6" />
