@@ -2,6 +2,11 @@
   "name": "simulasi",
   "version": "0.0.0",
   "private": true,
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",

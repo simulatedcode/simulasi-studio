@@ -8,7 +8,7 @@ const lenis = new Lenis({
   gestureDirection: "vertical", // vertical, horizontal, both
   smooth: true,
   mouseMultiplier: 1,
-  smoothTouch: false,
+  smoothTouch: true,
   touchMultiplier: 2,
   infinite: false,
 });
@@ -28,7 +28,7 @@ requestAnimationFrame(raf);
 
 <template>
   <FirstLayer />
-  <div class="snap-y h-screen w-screen overflow-scroll">
+  <div class="snap-mandatory h-screen w-screen overflow-scroll">
     <div class="snap-start h-screen w-screen backdrop-blur-[2px]">
       <div class="flex p-8 gap-32">
         <RegisterTL />
